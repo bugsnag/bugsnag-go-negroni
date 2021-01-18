@@ -8,9 +8,9 @@ import (
 	"time"
 
 	simplejson "github.com/bitly/go-simplejson"
-	"github.com/bugsnag/bugsnag-go"
+	"github.com/bugsnag/bugsnag-go/v2"
 	"github.com/bugsnag/bugsnag-go-negroni"
-	. "github.com/bugsnag/bugsnag-go/testutil"
+	. "github.com/bugsnag/bugsnag-go/v2/testutil"
 	"github.com/urfave/negroni"
 )
 
@@ -76,7 +76,7 @@ func TestNegroni(t *testing.T) {
 				"version": "%s"
 			}
 		}
-		`, hostname, userID, bugsnag.VERSION))
+		`, hostname, userID, bugsnag.Version))
 	})
 
 	t.Run("Notify", func(st *testing.T) {
@@ -120,7 +120,7 @@ func TestNegroni(t *testing.T) {
 				"version": "%s"
 			}
 		}
-		`, hostname, userID, bugsnag.VERSION))
+		`, hostname, userID, bugsnag.Version))
 	})
 }
 

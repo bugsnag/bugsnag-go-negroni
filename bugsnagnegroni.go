@@ -3,8 +3,8 @@ package bugsnagnegroni
 import (
 	"net/http"
 
-	"github.com/bugsnag/bugsnag-go"
-	"github.com/bugsnag/bugsnag-go/device"
+	"github.com/bugsnag/bugsnag-go/v2"
+	"github.com/bugsnag/bugsnag-go/v2/device"
 	"github.com/urfave/negroni"
 )
 

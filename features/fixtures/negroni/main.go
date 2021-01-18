@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bugsnag/bugsnag-go"
+	"github.com/bugsnag/bugsnag-go/v2"
 	"github.com/bugsnag/bugsnag-go-negroni"
 	"github.com/urfave/negroni"
 )
