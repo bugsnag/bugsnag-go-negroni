@@ -19,7 +19,8 @@ A clear and concise description of what the bug is.
 4. See error
 
 ### Environment
-* Bugsnag version:
+* Bugsnag Go version:
+* Bugsnag Go Negroni version:
 * Go version:
 * Negroni framework version:
 
