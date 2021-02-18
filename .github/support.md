@@ -9,6 +9,7 @@ When contacting support, please include as much information as necessary, includ
 - steps to reproduce
 - expected/actual behaviour 
 
+* Bugsnag Go version:
 * Bugsnag Go Negroni version:
 * Go version:
 * Negroni framework version:
